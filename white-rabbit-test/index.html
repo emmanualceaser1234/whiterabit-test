@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="hero-section">
+        <div class="header">
+            <div class="logo">
+                <img src="./images/Logo.svg" alt="">
+            </div>
+            <div class="main-menu">
+                <div class="left-side-menu" id="mobileMenu">
+                    <div class="menu-item">
+                        <a href="">Products</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="">Solutions</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="">Pricing</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="">Resources</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="">Company</a>
+                    </div>
+                </div>
+                <div class="right-side-menu">
+                    <div class="flag">
+                        <img src="./images/flag.svg" alt="">
+                    </div>
+                    <div class="menu-item">
+                        <a href="" class="log-in">Log In</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="" class="sign-up">Sign Up
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.00008 0.666687L5.06008 1.60669L8.78008 5.33335H0.666748V6.66669H8.78008L5.06008 10.3934L6.00008 11.3334L11.3334 6.00002L6.00008 0.666687Z" fill="#528FF0"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-box">
+                <div class="row ">
+                    <div class="col-lg-6 vert-center">
+                        <div class="hero-box-content">
+                            <h1>Lorem ipsum dolor sit amet consectetur </h1>
+                        <span></span>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <button class="btn-normal">Sign Up Now</button>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-6 vert-center flex-end">
+                        <img src="./images/hero image.svg" alt="">
+                    </div>
+                </div>
+        </div>
+    </div>
+<span class="menu-burger" onclick="openMenu()">
+    <img src="./images/menu.png" alt="">
+</span>
+
+    <!-- --------------------hero section ended------------------ -->
+    <div class="section">
+        <div class="row m-0">
+            <div class="col-lg-6 vert-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="custCarousel" class="carousel slide" data-ride="carousel" align="center">
+                                <!-- slides -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active"> <img src="./images/slider/image 01-min.jpg" alt="Hills"> </div>
+                                    <div class="carousel-item"> <img src="./images/slider/image 02-min.jpg" alt="Hills"> </div>
+                                    <div class="carousel-item"> <img src="./images/slider/image 03-min.jpg" alt="Hills"> </div>
+                                    <div class="carousel-item"> <img src="./images/slider/image 04-min.jpg" alt="Hills"> </div>
+                                    <div class="carousel-item"> <img src="./images/slider/image 05-min.jpg" alt="Hills"> </div>
+                                    <div class="carousel-item"> <img src="./images/slider/image 06-min.jpg" alt="Hills"> </div>
+                                    <div class="carousel-item"> <img src="./images/slider/image 07-min.jpg" alt="Hills"> </div>
+                                    <div class="carousel-item"> <img src="./images/slider/image 08-min.jpg" alt="Hills"> </div>
+                                    
+                                </div> 
+                                <!-- Left right --> 
+                                <a class="carousel-control-prev" href="#custCarousel" data-slide="prev"> 
+                                    <img src="./images/left.svg" alt=""> 
+                                </a> 
+                                <a class="carousel-control-next" href="#custCarousel" data-slide="next"> 
+                                    <img src="./images/right.svg" alt="">
+                                 </a> 
+                                 <!-- Thumbnails -->
+                                <ol class="carousel-indicators list-inline">
+                                    <li class="list-inline-item active"> 
+                                        <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel"> <img src="./images/slider/image 01-min.jpg" class="img-fluid"> </a> 
+                                    </li>
+                                    <li class="list-inline-item"> 
+                                        <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel"> <img src="./images/slider/image 02-min.jpg" class="img-fluid"> </a> 
+                                    </li>
+                                    <li class="list-inline-item"> 
+                                        <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel"> <img src="./images/slider/image 03-min.jpg" class="img-fluid"> </a> 
+                                    </li>
+                                    <li class="list-inline-item">
+                                         <a id="carousel-selector-2" data-slide-to="3" data-target="#custCarousel"> <img src="./images/slider/image 04-min.jpg" class="img-fluid"> </a> 
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a id="carousel-selector-2" data-slide-to="4" data-target="#custCarousel"> <img src="./images/slider/image 05-min.jpg" class="img-fluid"> </a> 
+                                   </li>
+                                   <li class="list-inline-item">
+                                         <a id="carousel-selector-2" data-slide-to="5" data-target="#custCarousel"> <img src="./images/slider/image 06-min.jpg" class="img-fluid"> </a> 
+                                   </li>
+                                   <li class="list-inline-item">
+                                        <a id="carousel-selector-2" data-slide-to="6" data-target="#custCarousel"> <img src="./images/slider/image 07-min.jpg" class="img-fluid"> </a> 
+                                   </li>
+                                   <li class="list-inline-item">
+                                        <a id="carousel-selector-2" data-slide-to="7" data-target="#custCarousel"> <img src="./images/slider/image 08-min.jpg" class="img-fluid"> </a> 
+                                  </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="buy-details">
+                    <h2>Pharetra Convallis</h2>
+                        <p>Euismod in pellentesque massa placerat duis ultricies lacus sed. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Commodo nulla facilisi nullam vehicula!</p>
+                    <p class="star-rat">
+                    <span><img src="./images/star.svg" alt=""></span>
+                    <span><img src="./images/star.svg" alt=""></span>
+                    <span><img src="./images/star.svg" alt=""></span>
+                    <span><img src="./images/star.svg" alt=""></span>
+                    <span><img src="./images/star2.svg" alt=""></span>
+                     23 reviews</p>
+                <div class="color-choose">
+                    <p>COLOR</p>
+                   <div class="color-box-wrapper">
+                        <div class="color-box active new">
+                            <p>Beige</p>
+                            <span>NEW COLOR!</span>
+                        </div>
+                        <div class="color-box limit">
+                            <p>Grey</p>
+                            <span>LIMITED RELEASE</span>
+                        </div>
+                        <div class="color-box">
+                            <p>Skiftebo yellow</p>
+                        </div>
+                        <div class="color-box">
+                            <p>Kelinge beige</p>
+                        </div>
+                        <div class="color-box">
+                            <p>Vibberbo black/beige</p>
+                        </div>
+                   </div>
+                </div>
+                    <div class="number-increase">
+                        <p>QUANTITY</p>
+                        <div class="box-increase-wrapper">
+                            <div class="box-increase">
+                                <p>-</p>
+                            </div>
+                            <div class="box-increase number-show">
+                                <p>1</p>
+                            </div>
+                            <div class="box-increase">
+                                <p>+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-select">
+                        <span class="toggle"></span>
+                        <p>Buy once -  $39.99</p>
+                        <h5>or 4 interest-free installments of <span>$10.00</span>  with <span class="green-text">TrevaPay  </span>  <img src="./images/Vector.png" alt="" class="pl-1"></h5>
+                    </div>
+                    <div class="price-select">
+                        <span class="toggle active"></span>
+                        <p>Subscribe  & <span class="offer">save 12.5%</span>  -  <span>$34.99</span></p>
+                        <h5>Never run out of product. Cancel anytime.</h5>
+                    </div>
+                    <div>
+                        <button class="btn-normal-big"><img src="./images/btn.svg
+                            " alt=""> Add to Bag</button>
+                    </div>
+                    <div class="points">
+                        <p><img src="./images/tic.svg" alt="">  Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p><img src="./images/tic.svg" alt=""> Ac felis donec et odio pellentesque diam</p>
+                        <p><img src="./images/tic.svg" alt="">  Pharetra convallis posuere morbi leo urna molestie</p>
+                        <p><img src="./images/tic.svg" alt="">  Nunc aliquet bibendum enim facilisis gravida neque convallis</p>
+                        <p><img src="./images/tic.svg" alt="">  Praesent semper feugiat nibh sed pulvinar proin gravida</p>
+                        <p><img src="./images/tic.svg" alt="">  Volutpat lacus laoreet non curabitur gravida arcu ac</p>
+                        <p class="link-car"><img src="./images/car.svg" alt=""> Free delivery and a risk-free <span>quality guarantee!</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+    function openMenu(){
+        $("#mobileMenu").toggleClass("d-block")
+    
+    };
+    
+</script>
+
+</html>
